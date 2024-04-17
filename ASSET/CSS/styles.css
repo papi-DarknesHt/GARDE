@@ -1,0 +1,45 @@
+.texte{
+    padding: 20px 60px 20px 60px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+.gras{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.italic{
+    font-style: italic;
+}
+main{
+    min-height: 80vh;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #0d6efd;
+}
+footer> a,span{
+    color: white;
+}
+footer p{
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
