@@ -43,3 +43,63 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    .mediaK{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mediaK{
+        width: 100%;
+    }
+}
+
+/* Styles pour les grands écrans */
+@media screen and (min-width: 1024px) {
+    .mediaK{
+        width: 50%;
+    }
+    .contener-mediaK{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Styles pour iPad xPro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaK{
+        width: 80%;
+    }
+    .contener-mediaK{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen 
+  and (max-device-width: 1024px) 
+  and (max-device-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaK{
+        width: 100%;
+    }
+    .contener-mediaK{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
